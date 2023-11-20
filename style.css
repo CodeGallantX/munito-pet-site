@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.home {
+    background: rgb(248, 187, 138);
+    height: 90vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header{
+    display: flex;
+    padding: 10px 30px 0px;
+    justify-content: space-evenly;
+    position: sticky;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 30px 0px;
+    list-style: none;
+    margin-right: -80em;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(5, 48, 83);
+    transition: all 0.3s ease-in;
+}
+
+.nav a:hover{
+    color: rgba(2, 63, 112);
+    transform: translateY(-5px);
+}
+
+.search-and-button {
+    margin-left: -30em;
+    display: flex;
+}
+
+.search {
+    display: flex;
+
+}
+
+#search-icon {
+    margin-left: 800px;
+}
+
+#search {
+    width: 6.5cm;
+    height: 43px;
+    border-radius: 30px;
+    border: transparent;
+    font-size: Poppins, sans-serif;
+    text-indent: 30px;
+    color: rgb(1, 39, 70);
+}
+
+#search::placeholder {
+    text-indent: 30px;
+    color: rgb(1, 39, 70);
+    font-family: Rubik, sans-serif;
+}
+
+.join {
+    width: 5cm;
+    height: 45px;   
+    border-radius: 30px;
+    background-color: rgb(1, 39, 70);
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+    margin-left: 5px;
+}
+
+.join:hover {
+    background: rgba(2, 63, 112);
+    box-shadow: 5px 5px rgb(255, 160, 83);
+}
+
+.join::after {
+    background: rgba(2, 63, 112);
+}
+
+.currency-dropdown {
+    padding: 15px 30px 0px;
+    margin-left: -5em;
+}
+
+#curr-dropdown {
+    background: transparent;
+    border: transparent;
+    font-size: 16px;
+    color: rgb(1, 39, 70);
+    cursor: pointer;
+}
+
+#option {
+    color: rgb(1, 39, 70);
+    background-color: rgb(248, 187, 138); 
+}
+
+#option:hover {
+    background-color: rgb(202, 150, 107);
+    color: rgb(1, 39, 70);
+}
+
+.intro-img {
+    float: right;
+    margin-left: -15em;
+    padding-top: 45px;
+}
+
+.welcome {
+    margin-top: 2.5cm;
+    margin-left: 2.5cm;
+}
+
+.intro-text {
+    color: rgb(5, 48, 83);
+}
+
+.intro-text h1{
+    font-weight: 700px;
+    font-size: 55px;
+    font-family: Poppins, sans-serif;
+}
+
+.intro-text p{
+    font-size: 30px;
+}
+
+.desc {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 3pc;
+    display: flex;
+    gap: 20px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 4cm;
+    height: 1.2cm;
+    background: transparent;
+    border: 2px solid rgb(5, 48, 83);
+    border-radius: 25px;
+    color: rgb(5, 48, 83);
+    font-size: 15px;
+    font-family: Rubik, sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.play:hover {
+    background-color: rgb(5, 48, 83);
+    color: white;
+}
+
+#explore {
+    width: 4cm;
+    height: 1.2cm;
+    background: rgb(5, 48, 83);
+    border: 2px solid rgb(5, 48, 83);
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+#explore:hover {
+    background-color: transparent;
+    color: rgb(5, 48, 83);
+}
+
+/* PAGE 2 */
+.page2 {
+    margin-top: 1cm;
+    margin-left: 2.5cm;      
+}
+
+.top {
+    margin-bottom: 30px;
+}
+
+.top-text h3 {
+    color: rgb(6, 65, 112);
+}
+
+.view-more-button {
+    float: right;
+    margin-top: -39px;
+    margin-right: 80px;
+}
+
+.view-more-button a {
+    text-decoration: none;
+}
+
+#arrow-right {
+    padding-right: 10px
+}
+
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-container {
+    display: block;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Adjust the width and margin to fit 4 items in a row */
+    width: 100%; /* Or any appropriate width */
+    gap: 20px; /* Adjust the gap between images */
+}
+
+.par-pup {
+    font-size: 5px;
+}
+
+#par-brown {
+    padding: 5px 10px 3px 5px;
+}
+
+.par-pup {
+    width: 245px;
+    height: 290px;
+    background: white;
+    box-shadow: 1px 2px 5px 0px black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+#par-brown {
+    border-radius: 13px;
+}
+
+.prof-text {
+    padding-left: 5px;
+}
+
+.prof-text h5 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-family: Quicksand, sans-serif;
+}
+
+.prof-text #desc-text {
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+.prof-text #price {
+    font-size: 15px;
+}
+
